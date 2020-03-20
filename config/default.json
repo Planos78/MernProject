@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://planpopx:1234aa@devconnector-nteui.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken"
+}
