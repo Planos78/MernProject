@@ -64,10 +64,10 @@ router.post(
     // Return jsonwebtoken
     // res.send('User registered');
     const payload = {
-        users:{
-            id: user.id,
+        user: {
+          id: user.id
         }
-    }
+      }
     jwt.sign(
         payload, 
         config.get('jwtSecret'),
